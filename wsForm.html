@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wsFormStyle.css">
+</head>
+<body>
+    <h2>สมัครสมาชิก</h2>
+    <form action="">
+        <div class="box">
+            <div>
+                <h3 class="color1">ข้อมูลส่วนตัว</h3>
+                <label for="title">คำนำหน้า :</label>
+                <select name="title" id="title" name="title">
+                    <option value="mr">กรุณาเลือก</option>
+                    <option value="mr">นาย</option>
+                    <option value="mrs">นาง</option>
+                    <option value="ms">นางสาว</option>
+                </select>
+
+            </div>
+
+            
+            
+            <div>
+                <label for="first_name">ชื่อ :</label>
+                <input type="first_name" id="first_name" name="first_name">
+            </div>
+
+            <div>
+                <label for="last_name ">นามสกุล :</label>
+                <input type="last_name" id="last_name" name="last_name">
+            </div>
+
+            <div>
+                <label for="bd">วันเดือนปีเกิด :</label>
+                <input type="bd" id="bd" name="bd"><br>
+            </div>
+
+            <div>
+                <label>เพศ :</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">ชาย</label>
+                <input type="radio" id="demale" name="gender" value="female">
+                <label for="famale">หญิง</label>
+            </div>
+
+            <div>
+                <label for="email">อีเมล์ :</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="phone">เบอร์โทรศัพท์ :</label>
+                <input type="phone" id="phone" name="phone">
+            </div>
+
+            <div>
+                <label for="address">ที่อยู่ปัจจุบัน :</label>
+                <input type="address" id="address" name="address">
+            </div>
+
+            <div>
+                <label for="district">อำเภอ :</label>
+                <input type="district" id="district" name="district">
+            </div>
+            
+            <div>
+                <label for="province">จังหวัด :</label>
+                <input type="province" id="province" name="province">
+            </div>
+
+            <div>
+                <label for="post">รหัสไปรษณีย์ :</label>
+                <input type="post" id="post" name="post">
+            </div>
+
+            <label for="occupation">อาชีพ :</label>
+            <select name="occupation" id="occupation" name="occupation">
+                <option value="oc">กรุณาเลือกอาชีพ</option>
+                <option value="oc">นักเรียน/นักศึกษา</option>
+                <option value="occ">อาจารย์</option>
+                <option value="occ1">อื่นๆ</option>
+            </select>
+
+            <div>
+                <label>งานอดิเรก :</label>
+                <input type="checkbox" id="read" value="read">
+                <label for="read">อ่านหนังสือ</label>
+                <input type="checkbox" id="gaming" value="gaming">
+                <label for="gaming">เล่นเกม</label>
+                <input type="checkbox" id="movies"  value="movies">
+                <label for="movies">ดูหนัง</label>
+                <input type="checkbox" id="music"  value="music">
+                <label for="music">ฟังเพลง</label>
+                <input type="checkbox" id="gardening"  value="gardening">
+                <label for="gardening">ปลูกต้นไม้</label>
+                <input type="checkbox" id="travel" value="travel">
+                <label for="travel">ท่องเที่ยว</label>
+            </div>
+
+            
+            <h3 class="color2">ข้อมูลผู้ใช้</h3>
+
+            <div>
+                <label for="u_name">Username</label>
+                <input type="u_name" id="u_name" >
+            </div>
+
+            <div>
+                <label for="u_pwd">Password</label>
+                <input type="u_pwd" id="u_pwd">
+            </div>
+
+            <div>
+                <input type="submit" value="สมัครสมาชิก">
+                <input type="submit" value="ยกเลิก">
+            </div>
+
+
+        </div>
+    </form>
+
+    </body>
+    </html>
